@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+}
+.interface {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.box {
+    width: 800px;
+    height: 800px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    border: 1px solid #2c2c2c;
+}
+
+.death {
+    background-color: #ffffff;
+}
+.alive {
+    background-color: green;
+}
