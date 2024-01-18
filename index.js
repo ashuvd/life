@@ -116,7 +116,7 @@ class Drawer {
     }
   };
   rerender(world) {
-    const cells = this.box.querySelectorAll('.cell');
+    const cells = this.box.children;
     for (const cell of cells) {
       const { id } = cell.dataset;
       if (id in world.population.data) {
